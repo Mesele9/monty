@@ -73,7 +73,9 @@ stack_t *add_dnodeint_end(stack_t **head, const int n)
 		curr->next = new;
 	}
 	else
+	{
 		(*head) = new;
+	}
 	
 	return (new);
 }
